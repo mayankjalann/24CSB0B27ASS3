@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Playwrite+IN:wght@100..400&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        overflow: auto;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .header {
+        background-color: white;
+        position: sticky;
+        top: 0;
+
+    }
+
+    .header table {
+        font-family: "Quicksand", serif;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #FFBF00;
+    }
+
+    th:hover {
+        color: #FFBF00;
+    }
+
+    .content {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .content img {
+        width: 100%;
+    }
+
+    .content .text h1 {
+        font-size: 40px;
+        font-family: "Quicksand", serif;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .content .text p {
+        font-size: 30px;
+        font-family: "Quicksand", serif;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .content .placestovisit {
+        display: flex;
+        width: 100%;
+        height: 4000px;
+    }
+
+    .content .placestovisit h1 {
+        padding-top:40px;
+        font-size: 40px;
+        text-align:center;
+        font-family: "Quicksand", serif;
+    }
+
+    .content .placestovisit .imgktm {
+        display: flex;
+        padding-left: 100px;
+        padding-top: 60px;
+
+        gap: 60px;
+
+    }
+
+    .content .placestovisit img:hover {
+        transform: scale(1.1);
+    }
+</style>
+
+<body>
+    <div class="header">
+        <table>
+            <tr>
+                <th><img src="nepal icon.png" width="200px" </th>
+                <th><a href="http://127.0.0.1:3000/tourism.html"> Home </a></th>
+                <th><a href="http://127.0.0.1:3000/placestogo.html"> Places to go</a></th>
+                <th><a href="http://127.0.0.1:3000/thingstodo.html">Things to do</a></th>
+                <th><a href="http://127.0.0.1:3000/Festivals.html"> Festivals and Events</a></th>
+                <th><a href="http://127.0.0.1:3000/hotelbooking.html"> Plan your Trip</a></th>
+                <th><a href="gallery.html"> Gallery </a></th>
+            </tr>
+        </table>
+    </div>
+    <div class="content">
+        <img src="ktm.png">
+        <div class="text">
+            <h1>KATHMANDU</h1>
+            <p> Kathmandu, the largest city of Nepal, is the political as well as cultural capital of the country.
+                Kathmandu is a city where ancient traditions rub shoulders with the latest technological advances.
+                However, it is the grandeur of the past that enchants the visitor whose gaze may linger on an
+                exquisitely carved wooden window frame, an 18th century bronze sculpture or the spiritually uplifting
+                stupas. Like any big city, Kathmandu has seen rapid expansion in the last decade, but despite the hustle
+                and bustle so typical of metropolitan cities, its people remain as refreshingly friendly as ever.
+                Retaining its ancient traditions, Kathmandu is blessed by a Living Goddess and is enriched by endless
+                ceremonial processions and events that take to the streets every now and then with throngs of devotees
+                seeking blessings. These religious festivals are steeped in legend and are quite a spectacle with
+                chariot processions and masked dancers often possessed by the spirits of deities.</p>
+        </div>
+        <div class="placestovisit">
+            <div class="texts">
+                <h1><b> Places to See In Kathmandu </b></h1>
+
+                <div class="imgktm">
+                    <a href="#"><img src="Pashupatinath.png" width=300px height=300px></a>
+                    <a href="#"><img src="Thamel.png" width=300px height=300px></a>
+                    <a href="#"><img src="Asan.png" width=300px height=300px></a>
+
+
+                </div>
+                <div class="imgktm">
+                    <a href="#"><img src="Kathmandu Durbar Square.png" width=300px height=300px></a>
+                    <a href="#"><img src="Swayambhu.png" width=300px height=300px></a>
+                    <a href="#"><img src="Boudhanath.png" width=300px height=300px></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
